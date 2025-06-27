@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width-device-width, initial-scale-1.0">
+<title>Delta University</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/b7d3a2258e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="header-about">
+        <nav>
+            <a href=""><img src="" alt=""></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa-solid fa-xmark" onclick="hidemenue()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                 
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenue()"></i>
+        </nav>
+        <div class="text">
+            <h1>CONTACT US</h1>
+
+        </div>
+    </section>
+    <section class="contact">
+        <section class="contactus">
+            <div class="row">
+                <div class="information">
+                    <div><i class="fa fa-home"></i>
+                    <span><h5>International Coastal Rd </h5></span></div>
+                    <div><span><p>Tech Valley Street 42, New Cairo, Cairo Governorate, Egypt</p></span></div>
+                    <div><i class="fa fa-phone"></i>
+                        <span><h5> (+20)0100 123 4567 </h5></span></div>
+                        <div><span><p>Saturday to Thursday,8am to 5pm</p></span></div>
+                    <div><i class="fa fa-envelope"></i>
+                        <span><h5>Info@aasshhtyb.eg</h5></span></div>
+                        <div><span><p>contact us to help</p></span></div>
+                </div>
+            </div>
+            <div class="comment-blogs">
+                <h3>Write Your Comment</h3>
+                <form>
+                    <input type="text" placeholder="Enter Your Name">
+                    <input type="email" placeholder="Enter Your Email">
+                    <textarea rows="5"></textarea> 
+                    <button class="btn">Post Comment</button>
+
+                </form>
+
+            </div>
+        </section>
+   </section>
+    <section class="footer">
+       
+        <div class="sociall">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-instegram"></i>
+            
+        </div>
+        <p>Made by Esraa Mahmoud <i class="fa fa-heart-o" style="color:red"></i> Thank You</p>
+    </section>
+    
+    <script>
+       var navlink= document.getElementById("navLink");
+       function hidemenu(){
+       navlink.style.right-"-200"
+       }
+       function showmenu(){
+        navlink.style.right = "0px"
+
+       }
+       
+    </script>
+</body>
+</html>
